@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondScreenActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You Have Entered"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="15dp"/>
+
+      <TextView
+          android:id="@+id/txtEmail"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:layout_margin="20dp"/>
+
+         <Button
+             android:id="@+id/btnClose"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:text="Close The Button"/>
+
+
+</LinearLayout>
